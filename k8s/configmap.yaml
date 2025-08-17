@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: node-app-config
+  namespace: basic-deploy
+data:
+  MESSAGE1: "Make rangoli on fun fridays!"
+  MESSAGE2: "90 hours work week!"
